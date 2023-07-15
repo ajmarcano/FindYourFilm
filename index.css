@@ -1,0 +1,176 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background: black;
+}
+
+.navbar {
+    background: url(./images/THJJRUhNlEc.png), black 0px -158.291px / 100% 423.007% no-repeat;
+    color: white;
+    width: 550px;
+    height: 208px;
+    flex-shrink: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#watchlist-button {
+    background: none;
+    margin-top: 10px;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+
+.search-container {
+    position: relative;
+    display: flex;
+    margin-top: -20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 462px;
+    align-items: center;
+    padding: 0px;
+}
+
+#search-logo {
+    position: absolute;
+    margin-left: 10px;
+}
+
+.search-bar {
+    background: #2E2E2E;
+    color: #A5A5A5;
+    border: none;
+    border-radius: 6px 0px 0px 6px;
+    height: 38px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    flex: 1 0 0;
+    padding-left: 40px;
+}
+
+.search-bar:focus {
+    outline: none;
+}
+
+.search-button {
+    display: flex;
+    width: 120px;
+    height: 38px;
+    padding: 9px 11px 9px 17px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    flex-shrink: 0;
+    align-self: stretch;
+    border-radius: 0px 6px 6px 0px;
+    background: #4B4B4B;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:focus {
+    outline: none;
+    
+}
+
+.movie-list {
+    margin-top: 42px;
+    min-height: 65vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: left;
+}
+
+.start-exploring {
+    color: #2E2E2F;
+}
+
+h4, h5 {
+    margin: 0px;
+}
+
+.movie-container {
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    width: 100%;
+}
+
+.movie-details {
+    width: 60%;
+}
+
+.movie-posters {
+    height: 147px;
+    width: 99px;
+    margin-bottom: 20px;
+    margin-left: 50px;
+    margin-right: 21px;
+}
+
+.top-movie-details {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 8px;
+    color: white;
+    gap: 4px;
+}
+
+.middle-movie-details {
+    display: flex;
+    font-size: 12px;
+    align-items: center;
+    margin-top: 0px;
+    padding: 0px;
+    color: white;
+    gap: 18px;
+}
+
+#movie-title {
+    color: white;
+}
+
+.watchlist-button {
+    display: flex;
+    font-size: 12px;
+    margin-top:px;
+    align-items: flex-end;
+    background: none;
+    height: 15px;
+    border: none;
+    color: white;
+    width: 80px;
+    cursor: pointer;
+    gap: 5px;
+}
+
+#search-movies {
+    background: none;
+    margin-top: 10px;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.watchlist-container > img {
+    width: 16px;
+}
+
+.movie-review {
+    color: #A5A5A5;
+}
+
+.divider {
+    border: none;
+    background: #2C2C2C;
+    height: 1px;
+    width: 80%;
+}
